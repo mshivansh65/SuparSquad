@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+.App {
+  font-family: sans-serif;
+  display: flex;
+}
+ul {
+  list-style: none;
+}
+.container {
+  min-width: 210px;
+  margin: 0 50px;
+}
+.hero_list {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.btn {
+  display: inline-block;
+  border: none;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: cyan;
+  border: 1px solid cyan;
+  transition: all 0.5s;
+  margin-left: 4px;
+}
+.btn:hover {
+  background-color: salmon;
+}
+.message {
+  position: absolute;
+  bottom: 100px;
+  right: 50%;
+  transform: translateX(50%);
+}
